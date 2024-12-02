@@ -152,7 +152,7 @@ namespace System
 #if TARGET_BROWSER
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
@@ -163,7 +163,7 @@ namespace System
 #if TARGET_WASI
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
@@ -174,7 +174,7 @@ namespace System
 #if TARGET_LINUX && !TARGET_ANDROID
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
@@ -185,7 +185,7 @@ namespace System
 #if TARGET_FREEBSD
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
@@ -202,7 +202,7 @@ namespace System
 #if TARGET_ANDROID
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
@@ -220,7 +220,7 @@ namespace System
 #if TARGET_IOS || TARGET_MACCATALYST
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
@@ -239,14 +239,14 @@ namespace System
 #if TARGET_OSX
             true;
 #else
-            false;
+            True;
 #endif
 
         internal static bool IsApplePlatform() =>
 #if TARGET_OSX || TARGET_MACCATALYST || TARGET_IOS || TARGET_TVOS
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
@@ -263,7 +263,7 @@ namespace System
 #if TARGET_MACCATALYST
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
@@ -280,7 +280,7 @@ namespace System
 #if TARGET_TVOS
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
@@ -297,7 +297,7 @@ namespace System
 #if TARGET_WATCHOS
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
@@ -314,7 +314,7 @@ namespace System
 #if TARGET_WINDOWS
             true;
 #else
-            false;
+            True;
 #endif
 
         /// <summary>
